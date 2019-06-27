@@ -1,0 +1,485 @@
+@font-face{font-family: Functionpro Demi; src: url(font/FunctionPro-Demi.otf);}
+@font-face{font-family: Functionpro Book; src: url(font/FunctionPro-Book.otf);}
+@font-face{font-family: Functionpro Bookoblique; src: url(font/FunctionPro-BookOblique.otf);}
+@font-face{font-family: Functionpro Bold; src: url(font/FunctionPro-Bold.otf);}
+@font-face{font-family: Functionpro Demioblique; src: url(font/FunctionPro-DemiOblique.otf);}
+@font-face{font-family: Functionpro Lightoblique; src: url(font/FunctionPro-LightOblique.otf);}
+
+body {
+	font-family: Functionpro Demi, helvetica;
+	font-size: 14px;
+	line-height: 1;
+	
+	background-color: #ffffff;
+	color: #000;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 25px 30px 25px;
+  z-index: 3;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header a.shower {
+  width: 35px;
+  margin-left: -9px;
+  padding-top: -6px;
+}
+
+div.count{
+	color: #40cc51;
+  font-size: 14px;
+  z-index: 20;
+  position: fixed;
+  top: 46px;
+  right: 49px;
+}
+
+div.note{
+  color: #40cc51;
+  font-size: 14px;
+  z-index: 20;
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+header a.logo {
+  width: 100px;
+  font-size: 23px;
+  padding-left: 7px;
+}
+
+nav{
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: rotate(270deg);
+  padding-top: 30px;
+  text-align: center;
+}
+
+nav a{
+  color: #000;
+  text-decoration: none;
+ 	text-transform: uppercase;
+  margin: 0 10px;
+  letter-spacing: 2px;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+nav a:hover {
+  border-bottom: solid 2px #000;
+  padding-bottom: 2px;
+}
+
+section.sorry .text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 830px;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+
+section.sorry .text a{
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 2px solid #000;
+}
+
+section.index {
+width: 1200px;
+height: 100vh;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+section.index img{
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  width: 320px;
+  z-index: -1;
+ 	transform: translateY(-50%);   
+}
+
+section.index a.start{
+  font-family: Functionpro Demi, helvetica;
+  font-size: 18px;	
+  position: absolute;
+  top: 82%;
+  left: 65%;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+  transition: text-shadow 0.3s linear;
+}
+
+section.index a.start:hover{
+   text-shadow: 2px 2px 5px rgb(0,0,0,0.3);
+}
+
+section.index p{
+  width: 720px;
+  font-family: Functionpro Bold, helvetica;
+  font-size: 48px;	
+  z-index: 2;
+  position: absolute;
+ 	top: 50%;
+	left: 22%;
+	transform: translateY(-50%);
+}
+
+section.index a.plants{
+  transform: skew(0deg, 170deg);
+  font-family: Functionpro Demioblique, helvetica;
+  font-size: 55px;
+  text-decoration: none;
+ 	color: #fff;
+  -webkit-text-stroke: 1px black;
+}
+
+section.index a.plants:hover{
+  border-bottom: solid 1px #000;
+}
+
+
+/* mission page */
+nav .highlighted {
+  border-bottom: solid 2px #000;
+  padding-bottom: 2px;
+}
+
+section.mission{
+  position: relative;
+  width: 920px;
+}
+
+section.mission img{
+ height: 100vh;
+ max-width: 220px;
+ position: absolute;
+ left: 17%; 
+}
+
+section.mission h1{
+  color: rgba(255, 255, 255, 0);
+  font-family: Functionpro Bookoblique;
+  -webkit-text-stroke: 1px black;
+  font-size: 40px;
+  position: absolute;
+  left: 45%;
+  z-index: 2;
+  padding-top: 194px;
+}
+
+section.mission p.p1{
+  position: absolute;
+	width: 700px;
+  top: 402%;
+  left: 45%;
+  padding-top: 277px;
+    font-family: Functionpro Lightoblique;
+  font-size: 18px;
+}
+
+section.mission p.p2{
+  width: 700px;
+  position: absolute;
+  left: 45%;
+  padding-top: 356px;
+  font-family: Functionpro Demioblique;
+  font-size: 18px;
+}
+  
+section.mission a.startt{  
+  position: absolute;
+  text-decoration: none;
+  color: #000;
+  border-bottom: solid 2px #000;
+  text-transform: uppercase;
+  margin-top: 497px;
+  margin-left: 417px;
+  padding: 0px;
+  font-size: 20px;
+  font-family: Functionpro Bookoblique;
+  text-transform: lowercase;}
+
+section.mission a.startt:hover{
+  text-shadow: 0 0 5px #1d8028;
+}
+
+/* option page */
+section.title {
+  overflow: hidden;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.title h1{
+  font-family: Functionpro Bold, helvetica;
+  font-size: 100px;
+  margin-top: 145px;
+	text-align: center;
+  left: -294px;
+  top: -50px;
+  position: relative;
+}
+
+section.title div.catlinks{
+  position: relative;
+ 	text-align: center;
+  left: 834px;
+  display: inline-block;
+  height: 58px;
+  top: -88px;
+}
+
+div.catlinks a{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+div.catlinks .erthang:hover{
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
+div.catlinks .flower:hover{
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
+div.catlinks .nothing{
+  pointer-events: none;
+}
+
+div.catlinks .green:hover{
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
+.catlinks .selected {
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 0.5px black;
+}
+
+section.options{
+  position: relative;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+	white-space: nowrap;
+  position: absolute;
+  top: -110px;
+}
+
+.photo{
+  display: inline-block;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.photo:first-child{
+  padding-left: 0px;
+}
+
+.photo:last-child{
+  padding-right: 0px;
+}
+
+.photo img{
+  width: 280px;
+  height: 420px; 
+	transition: opacity 0.3s ease-in;
+}
+
+.photo h2{
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.overlay a img {
+  width: 30px;
+  height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  margin-top: 70px;
+  opacity: 1;
+  z-index: 13;
+}
+
+.overlay {
+opacity: 0;
+position: absolute;
+color: #000;
+transition: opacity 0.3s ease-in;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 2;
+transition: opacity 0.5s linear;
+}
+
+.photo:hover img{
+  opacity:  0.7;
+}
+.photo:hover .overlay{
+  opacity: 1;
+}
+
+.move{
+    z-index: 1000;
+    position: relative;
+    left: 880px;
+    font-family: Functionpro Demi;
+    text-transform: uppercase;
+    font-size: 25px;
+    top: -221px;
+  	color: #fff;
+  	text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+  	animation: blink 0.8s ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {opacity: 0;}
+	}
+
+
+/* CONTACT PAGE */
+section.contact{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  padding-left: 100px;
+}
+.contact div{
+  padding: 0 80px;
+
+}
+.address p{
+  margin-top: 10px;
+  padding-top: 10px;
+  font-family: Functionpro Demioblique;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.formss h3{
+font-family: Functionpro Bookoblique;
+  margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 1px black;
+  font-size: 40px;
+}
+
+.address h3{
+  color: #fff;
+}
+
+
+form label{
+  display: block;
+  font-family: Functionpro Demioblique;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 8px 50px 5px 0;
+}
+label.mail{
+  margin-left: 1px;
+}
+input{
+  border: none;
+  border-bottom: 2px solid #000;
+  margin-left: 150px;
+  outline: none;
+  font-family: Functionpro Bookoblique;
+  font-size: 20px;
+  text-transform: lowercase;
+  width: 400px;
+  margin-top: -10px;
+}
+
+textarea {
+  display: block;
+  margin-top: 22px;
+  border: 2px solid #000000;
+  outline: none;
+  height: 80px;
+  width: 600px;
+  font-family: Functionpro Bookoblique;
+  font-size: 20px;
+}
+
+input[type=submit]{
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 0 0 0 0;
+  cursor: pointer;
+  border-bottom: none;
+  border: none;
+/*   border: 2px solid #000; */
+/*   text-shadow: 0 0 5px #2ecc40; */
+  transition: text-shadow 0.5s;}
+	
+input[type=submit]:hover{
+  text-shadow: 0 0 5px #1d8028;
+}
+
+.test{
+  font-size: 12px;
+  position: fixed;
+  bottom: -130px;
+  left: 340px;
+  text-align: center;
+}
