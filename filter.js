@@ -30,6 +30,7 @@ $(".catlinks .flower").on("click", function(){
   $(".redflowers").css("left","-140px")
 })
 
+
 $(".wrapper").on("scroll", function(){
   $(".move").css("display","none")
 })
@@ -46,6 +47,21 @@ $(".overlay a img").on("click", function (){
 $(".note").fadeIn().delay(1900).fadeOut(".note")
 })
 
+
+
+
+function (){
+  if($(window).width() < 425){
+
+  $(".catlinks .flower").on("click", function(){
+  $(".plumeria").css("display","inline-block")
+  $(".plumeria").css("left","0px")
+  $(".redflowers").css("display","inline-block")
+  $(".redflowers").css("left","0px")
+})
+
+  }
+}
 
 
 
